@@ -1,0 +1,119 @@
+body {
+  font-family: Montserrat;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: bolder;
+}
+
+h2 {
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.4;
+}
+
+h3 {
+  font-family: "Montserrat-Black";
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+.navigationbar {
+  margin: 0px;
+}
+
+.logo {
+  height: 60px;
+  width: 60px;
+  margin: 3px 0px 3px 0px;
+}
+
+.navbar{
+  margin: 0%;
+  padding: 0px 50px 2px 50px;
+  background-color: aqua;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  padding-left: 2px;
+}
+
+.heading{
+  font-family: 'Pacifico', cursive;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+.images{
+  padding-top: 80px;
+}
+
+.details {
+  padding: 5% 12%;
+  background-color: #15eded;
+}
+
+.aboutUs-h2 {
+  font-family: 'Teko', sans-serif;
+  font-size: 4rem;
+  padding-bottom: 20px;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-h2 {
+  font-family: 'Teko', sans-serif;
+  font-size: 4rem;
+  padding-top: 50px;
+}
+
+@media (max-width:1000px) {
+
+  .container, .details{
+    text-align: center;
+  }
+}
+
+#footer {
+  background-color: aqua;
+}
+
+.footer-p {
+  font-size: 0.75rem;
+}
+
+.footer-icon {
+  padding: 3% 1% 2%;
+}
+
+#footer .container-fluid {
+  padding: 3% 15%;
+}
